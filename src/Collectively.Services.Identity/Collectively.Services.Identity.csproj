@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Collectively.Messages" Version="1.0.*" />
-    <!-- <PackageReference Include="Collectively.Common" Version="1.0.*" /> -->
+    <PackageReference Include="Collectively.Common" Version="1.0.*" /> 
     <PackageReference Include="Autofac" Version="4.2.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
     <PackageReference Include="Lockbox.Client" Version="1.0.0" />
@@ -34,10 +34,6 @@
     <PackageReference Include="Nancy.Bootstrappers.Autofac" Version="2.0.0-clinteastwood" />
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.3.0" />
     <PackageReference Include="Polly" Version="5.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Collectively.Common\src\Collectively.Common\Collectively.Common.csproj" />
   </ItemGroup>
 
 </Project>
